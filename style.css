@@ -1,0 +1,75 @@
+<!--
+namn: Melker Blomqvist
+klass: Te23E
+-->
+
+body{
+    background-image: url(./img/winter-snow.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    background-color: darkslategray;
+}
+.rubrik{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 7px solid black;
+    padding-bottom: 10px;
+}
+ul{
+    background-color: darkslategray;
+    border: 2px solid yellow;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: square;
+}
+li{
+    width: 51%;
+}
+#julafton{
+    color:  tomato;
+    background-color: white;
+}
+#nyår{
+    background-color: rgb(228, 201, 29);
+}
+.kalender{
+    
+    width: 39%;
+    margin: auto;
+    border: 7px solid black;
+    margin-top: 5%;
+    
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    background-color: lightgray;
+    border: 2px solid tomato;
+    padding: 5px;
+}
+td{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(238, 231, 221);
+    border: 2px solid tomato;
+}
+.speciell_dag{
+    color: tomato;
+}
+#fyrverkerier{
+    border: 7px solid black;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
